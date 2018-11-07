@@ -48,8 +48,6 @@ def search(password, plain_text=False):
     return password.search()
 
 def range(password, plain_text=False):
-    password = Password(password, plain_text=plain_text)
-    return password.range()
 
 class PwnedPasswordsAPI(object):
     @staticmethod
